@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="persetujuan">
+
+        Dengan menekan tombol masuk berarti Anda menyetujui <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> Kami
+    </string>
+    <string name="hasil">
+        Beres! Sekarang kamu\nudah bisa ngecek\npenggunaan HP mu\ntiap hari buat bantu kamu\nngatur waktu :)
+    </string>
+</resources>

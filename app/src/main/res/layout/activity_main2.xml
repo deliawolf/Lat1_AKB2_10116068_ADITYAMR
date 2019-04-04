@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"
+            android:paddingTop="30dp"
+            android:paddingLeft="20dp"
+            android:text="Kode Keluarga"
+            android:textSize="30dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="#202020"
+            />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="#202020"
+            android:text="Ketikan Kode Keluarga yang Ayah Bunda Miliki disini" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/inputtext1"
+            android:layout_below="@+id/text3"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/roundedinput"
+            />
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inputtext1"
+            android:textAlignment="center"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="#202020"
+            android:text="@string/setuju"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/roundedbutton1"
+            android:text="Masuk" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/button2"
+            android:layout_marginTop="200dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button3"
+            android:textAlignment="center"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="#202020"
+            android:text="Belum Punya kode keluarga?"
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="35dp"
+            android:textColor="#f8f8f8f8"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/roundedbutton2"
+            android:text="Beri Kode Keluarga Disini" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

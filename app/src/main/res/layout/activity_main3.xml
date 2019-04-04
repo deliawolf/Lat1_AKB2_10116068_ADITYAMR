@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8">
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:text="Nama Panggilan Kamu"
+            android:textColor="#202020"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/inputtext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text6"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"
+            android:hint="Contoh : Budi"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:text="Nama Panggilan Kamu"
+            android:textColor="#202020"
+            android:textSize="30dp"
+            android:layout_below="@+id/inputtext2"/>
+
+        <EditText
+            android:id="@+id/inputtext3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text7"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"
+            android:hint="Contoh : 12"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/roundedbutton1"
+            android:text="Selanjutnya" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
